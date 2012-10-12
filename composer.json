@@ -1,0 +1,24 @@
+{
+    "name":"huper/button-manager-sdk",
+    "type":"library",
+    "description":"Cloned from official Button manager sdk to add composer support.",
+    "keywords":["paypal"],
+    "license":["SDK"],
+    "authors":[
+        {
+            "name":"PayPal, Inc.",
+            "homepage":"https://www.x.com/developers/paypal/"
+        },
+        {
+            "name":"Community",
+            "homepage":"https://github.com/paypal/SDKs/graphs/contributors"
+        }
+    ],
+    "require":{
+        "php":">=5.2",
+        "ext-curl":"*"
+    },
+    "autoload":{
+        "classmap":["lib/"]
+    }
+}
