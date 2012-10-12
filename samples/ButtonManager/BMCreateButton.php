@@ -1,8 +1,6 @@
 <?php
 $path = '../../lib';
 set_include_path(get_include_path() . PATH_SEPARATOR . $path);
-require_once('services/PayPalAPIInterfaceService/PayPalAPIInterfaceServiceService.php');
-require_once('PPLoggingManager.php');
 
 $logger = new PPLoggingManager('Crete Button');
 
@@ -65,4 +63,3 @@ if(isset($createButtonResponse)) {
 	print_r($createButtonResponse);
 	echo "</pre>";
 }
-require_once '../Response.php';

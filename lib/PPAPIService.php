@@ -1,10 +1,4 @@
 <?php
-require_once 'PPCredentialManager.php';
-require_once 'PPConnectionManager.php';
-require_once 'PPObjectTransformer.php';
-require_once 'PPLoggingManager.php';
-require_once 'PPUtils.php';
-require_once 'PPAuthenticationManager.php';
 
 class PPAPIService
 {

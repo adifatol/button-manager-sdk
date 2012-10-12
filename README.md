@@ -25,7 +25,6 @@ To use the SDK,
 
 For example,
 
-	require_once('services/PayPalAPIInterfaceService/PayPalAPIInterfaceServiceService.php');	require_once('PPLoggingManager.php');
 
     $buttonSearchRequest = new BMButtonSearchRequestType();
 	$buttonSearchRequest->Version = 86.0;

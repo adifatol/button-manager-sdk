@@ -1,8 +1,5 @@
 <?php
 
-require_once 'exceptions/PPMissingCredentialException.php';
-require_once 'IPPCredential.php';
-require_once 'PPConfigManager.php';
 
 /**
  * API signature based credentials

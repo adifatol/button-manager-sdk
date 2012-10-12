@@ -1,7 +1,6 @@
 <?php
 //PayPal specific modification starts
 //Method to be called for generating signature
-require_once("AuthUtil.php");
 class AuthSignature
 {
 

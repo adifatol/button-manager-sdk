@@ -1,6 +1,5 @@
 <?php
 
-require_once 'PPCredentialManager.php';
 
 /**
  * Test class for PPCredentialManager.

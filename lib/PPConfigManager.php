@@ -3,7 +3,6 @@
  * PPConfigManager loads the SDK configuration file and
  * hands out appropriate config params to other classes
  */
-require_once 'exceptions/PPConfigurationException.php';
 
 class PPConfigManager {
 

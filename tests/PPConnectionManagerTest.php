@@ -1,6 +1,5 @@
 <?php
 
-require_once 'PPConnectionManager.php';
 
 /**
  * Test class for PPConnectionManager.

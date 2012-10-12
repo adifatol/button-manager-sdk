@@ -1,8 +1,6 @@
 <?php
 $path = '../../lib';
 set_include_path(get_include_path() . PATH_SEPARATOR . $path);
-require_once('services/PayPalAPIInterfaceService/PayPalAPIInterfaceServiceService.php');
-require_once('PPLoggingManager.php');
 
 $logger = new PPLoggingManager('BMGetInventory');
 
@@ -26,4 +24,3 @@ echo "</table>";
 echo "<pre>";
 print_r($bmGetInventoryResponse);
 echo "</pre>";
-require_once '../Response.php';

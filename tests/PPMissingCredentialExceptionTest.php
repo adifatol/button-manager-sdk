@@ -1,6 +1,5 @@
 <?php
 
-require_once 'exceptions/PPMissingCredentialException.php';
 
 /**
  * Test class for PPMissingCredentialException.

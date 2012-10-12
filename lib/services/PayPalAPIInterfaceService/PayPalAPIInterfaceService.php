@@ -4,7 +4,6 @@
   * Auto generated code 
   * 
   */
-require_once('PPUtils.php');
 /**
  * On requests, you must set the currencyID attribute to one of
  * the three-character currency codes for any of the supported

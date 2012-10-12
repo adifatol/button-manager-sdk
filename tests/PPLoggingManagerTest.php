@@ -1,6 +1,5 @@
 <?php
 
-require_once 'PPLoggingManager.php';
 
 /**
  * Test class for PPLoggingManager.

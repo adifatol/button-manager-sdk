@@ -1,5 +1,4 @@
 <?php
-require_once 'PPCertificateCredential.php';
 
 /**
  * Test class for PPCertificateCredential.

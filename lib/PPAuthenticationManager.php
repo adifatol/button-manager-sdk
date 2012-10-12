@@ -1,10 +1,4 @@
 <?php
-require_once 'IPPCredential.php';
-require_once 'PPConfigManager.php';
-require_once 'PPSignatureCredential.php';
-require_once 'PPCertificateCredential.php';
-require_once 'exceptions/PPInvalidCredentialException.php';
-require_once 'auth/PPAuth.php';
 
 class PPAuthenticationManager
 {

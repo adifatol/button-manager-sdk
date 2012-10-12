@@ -1,7 +1,4 @@
 <?php
-require_once 'IPPCredential.php';
-require_once 'PPConfigManager.php';
-require_once 'exceptions/PPMissingCredentialException.php';
 
 class PPCertificateCredential extends IPPCredential{
 	
